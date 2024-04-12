@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background: white;
+}
+
+#wrapper{
+    width: 98%;
+    height: 90%;
+    background-color: #fff;
+}
+#port{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 10px;
+    list-style-type: none;
+    
+}
+#port h1{
+    font-weight: 600;
+}
+#port ul li{
+    display: inline;
+   
+    margin: 0 10px;
+}
+#port ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+
+}
+#port ul li a:hover{
+    color: yellow;
+}
+#port2{
+    background-color: rgb(250, 219, 224);
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    padding-left: 30px;
+    min-height: 50vh;
+}
+#port2 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+}
+#port2 article{
+    font-size: 20px;
+}
+#img{
+    width: 300px;
+    height: 300px;
+    mix-blend-mode:multiply;
+    float: right;
+    display: flex;
+    
+}
+#port2 p{
+    background: black;
+    margin-top: 10px;
+    width: 110px;
+    text-align: center;
+    display: inline;
+    position: absolute;
+    font-size: 20px;
+    height: 5%;
+    
+}
+
+#port2 p a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 600;
+}
+#port2 p:hover{
+    background: yellowgreen;
+}
+#wrapper2{
+    background: white;
+}
+#port3{
+    background-color: #fadbe0;
+    margin-top: 30px;
+    margin-right: 20px;
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    padding-left: 30px;
+    min-height: 70vh;
+    box-sizing: border-box;
+}
+#port3 h1 {
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    margin-right: 0 20px;
+    text-align: justify;
+    padding-left: 0 20px;
+}
+
+#port3 h4{
+    font-size: 20px;
+    text-transform: capitalize;
+    word-break: keep-all;
+    text-align:left;
+}
+
+#port3 p{
+    word-wrap:break-word;
+    text-transform: capitalize;
+}
+#img1{
+    float: left;
+    display: flex;
+    top: 170%;
+    width: 400px;
+    height: 300px;
+    margin-right: 40px;
+    
+}
+#port3 p{
+    font-size: 17px;
+    margin-top: 10px;
+    text-align: left;
+    display: flex;
+}
+
+#p1{
+    background: #000;
+    width: 110px;
+    height: 20%;
+    display:inline-block;
+    text-align: center;
+    
+    
+    
+    
+    
+
+}
+#p1 a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 10px;
+    text-align: center;
+    width: 110px;
+    height: 25px;
+    margin-top: 10px;
+    
+}
+
+#port4{
+    background-color: #fadbe0;
+    margin-top: 30px;
+    margin-right: 20px;
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    padding-left: 30px;
+    min-height: 70vh;
+    box-sizing: border-box;
+}
+#port4{
+    width: 100%;
+}
+#port4 h1{
+    text-align: center;
+}
+#port4{
+    margin: 50px 0;
+}
+#tool{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+#do{
+    background: #fff;
+    margin: 20px;
+    padding: 10px;
+    height: 200px;
+    padding-right: 0 20px;
+}
+
+#do p{
+    margin-top: 60px;
+    
+}
+#des{
+    color: grey;
+}
+#footer{
+    background: grey;
+    margin-top: ;
+    margin-right: 20px;
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+    padding-left: 30px;
+    min-height: 70vh;
+    box-sizing: border-box;
+    position: relative;
+}
+#you{
+    margin: 50px 0;
+}
+#us{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+#bot{
+    height: 200px;
+    width:300px;
+    color: #fff;
+    background:;
+    margin: 5px;
+    margin-right: ;
+    padding: 0;
+    position: relative;
+    font-size: 18px;
+    cursor: pointer;
+}
+#p2{
+    margin-top: 10px;
+}
+#bot a{
+    text-decoration: none;
+    color: #fff;
+    list-style-type:none;
+}
+#come{
+    position: absolute;
+    top:70%;
+    right: 305px;
+}
+#come2{
+    position: absolute;
+    top:86%;
+    right: 305px;
+}
+#come3{
+    position: absolute;
+    top: 102%;
+    right: 305px;
+}
+
+#same{
+    width: 30%;
+    background: #fadbe0;
+    border: none;
+    font-size: 12px;
+    font-weight: 600u;
+    height: 30px;
+}
+#same:hover{
+    background: yellowgreen;
+}
+#bot h3:hover{
+    color:yellowgreen;
+}
+#bot h1:hover{
+    color: yellowgreen;
+}
+#bot input{
+    height: 30px;
+    text-align: center;
+}
+#arrow{
+    background: #fadbe0;
+    top: 125%;
+    display: inline-flex;
+    position: absolute;
+    width: 30px;
+    height: 20px;
+    text-align: center;
+    margin-top: 20px ;
+     justify-content: center;
+}
